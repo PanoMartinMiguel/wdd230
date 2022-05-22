@@ -1,0 +1,93 @@
+header{
+    margin: 1rem;
+    border: 1px px solid #bbb;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: rgb(34 63 155);
+    display: grid;
+    
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgb(53 52 52);
+}
+
+h1{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.boxone {
+    background-color: rgb(206, 198, 198);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.boxtwo {
+    background-color: rgb(206, 198, 198);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.boxthree {
+    background-color: rgb(206, 198, 198);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.Titleone{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.Titletwo{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.Titlethree{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.link a{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+img{
+    width: 100%;
+
+}
+
+footer{
+    margin: 1rem;
+    
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: rgb(34 63 155);
+    display: grid;
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgb(53, 52, 52);
+}
