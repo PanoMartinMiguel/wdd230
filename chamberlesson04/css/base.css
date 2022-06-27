@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/* everything */
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: .5em 2.5em; 
+}
+
+/* header and navigation */
+
+header figure.logo {
+    float:left;
+    width: 19%;
+    /* border: 1px red dashed; */
+    margin-top: 0;
+    padding-top: 2%;
+    
+}
+
+.title {
+    /* width: 80%; */
+    font-size: .8em;
+}
+/* header figure.title h1 {
+    width: 100%;
+} */
+
+header figure.logo img {
+    width: 100%;
+}
+
+header {
+    background-color: #11122b;
+    color: white;
+}
+
+header figure.logo {
+    float:left;
+    /* margin:0; */
+}
+
+.date {
+    text-align: center;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+
+nav a:hover {
+    background-color: #bbb;
+    color: #36454f;
+    --d: 75%;
+}
+nav ul {
+    background-color: #E5DDDC; 
+}
+
+nav ul li a {
+    
+	display: block;
+	color: black;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	transition: 0.5s;
+}
+nav a:hover {
+    background-color: #11122b;
+    color: #cea135;
+    --d: 75%;
+}
+
+
+/* body and main */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px 0px;
+    margin: 0;
+    background-color: #11122b;  
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    margin: 0px -30px;
+}
+
+.box {
+    background-color: #E5DDDC;
+    margin: 10px;
+}
+
+h3 {
+    color: black;
+}
+
+.headingbox {
+    background-color: white;
+    padding: 1%;
+}
+
+.notsmall {
+    display: none;
+    background-color: #E5DDDC;
+    margin: 10px;
+}
+
+.onlylarge {
+    display: none;
+    background-color: #E5DDDC;
+    margin: 10px;
+}
+
+/* Call to Action Section */
+
+#calltoaction {
+    position: relative;
+}
+
+.callimg { 
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.welcome {
+    font-size: 1.2em;
+    position: absolute;
+    background-color: #11122b;
+    color: white;
+    padding: 1px;
+    border-radius: 2em;
+    top: 2%;
+    left: 10%;
+    right: 10%;
+}
+
+.join {
+    font-size: 1rem;
+    position: absolute;
+    background-color: #11122b;
+    color: black;
+    padding: 15px 5px;
+    border-radius: 2em;
+    left: 20%;
+    bottom: 1%;
+    right: 20%;
+}
+
+/* Event Section */
+
+#event {
+    padding: 2em;
+}
+
+/* Weather Section  */
+
+#weather {
+    padding: 2em;
+    position: relative;
+}
+
+.weatherimg {
+    max-width: 40%;
+    float:inline-start;
+}
+
+
+/* Spotlight Section  */
+
+.spotlights {
+    background-color: #11122b;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px;
+}
+
+#spotlight1 {
+    position: relative;
+    background-color: white;
+    grid-row: 1/2;
+    display: grid;
+    padding: 0 10px;
+
+}
+
+#spotlight2 {
+    position: relative;
+    background-color: white;
+    display: grid;
+    padding: 0 10px;
+}
+
+#spotlight3 {
+    position: relative;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.spotlightimg {
+    position: absolute;
+    max-width: 40%;
+    max-height: 40%;
+    left: 35%;
+    top: 15%;
+}
+
+.spotlightinfo {
+    margin-bottom: -70px;
+}
+
+.contactinfo {
+    border: black;
+    border-top-style: solid;
+    margin: 20px;
+    font-size: small;
+}
+
+/* Releases Section */
+
+#newreleases {
+    display: grid;
+    place-content: center;
+    padding: 0 2em;
+}
+
+/* Join Section */
+
+#join {
+    position: relative;
+    display: grid;
+    font-size: large;
+    padding: 0 2em;
+    padding: 40px;
+}
+
+.jointext {
+    margin-top: 20%;
+}
+
+.join2 {
+    font-size: 2rem;
+    position: absolute;
+    background-color: #11122b;
+    color: black;
+    padding: 15px 55px;
+    border-radius: 2em;
+    left: 5%;
+    top: 1%;
+    right: 5%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #11122b;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+footer a{
+    color: #bbb;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: none;
+    transition: 0.5s;
+    background-color: #11122b;
+    font-family: 'Open Sans', sans-serif;
+    color: #cea135;
+    --d: 75%;
+}
+
+#info {
+    text-align: right;
+    grid-row: 1/2;
+    border-bottom: black;
+    border-width: 1em;
+}
+
+/* Clearfix: Force an Element not to collapse */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+/*Directory-pictures*/
+
+img{
+    width: 50%;
+}
+
+.pictureone{
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.acuario {
+    grid-column: 2;
+    
+}
+
+.aquario:hover{
+    box-shadow: 0 0 50px #333;
+    transition: 2s;
+}
+
+.textone{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.picturetwo{
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.deer_island{
+    grid-column: 1;
+}
+
+.deer{
+    border-radius: 5px 150px;
+}
+
+.texttwo{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.picturethree{
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 3;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.plazamachado{
+    grid-column: 2;
+}
+
+.machado{
+    opacity: .5;
+}
+
+.textthree{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.picturefour{
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 4;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+}
+
+.pinosuarez{
+    grid-column: 1;
+}
+
+.suarez{
+    filter: blur(1px) grayscale(75%);
+}
+
+.textfour{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.picturefive{
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 5;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+}
+
+.changueras{
+    grid-column: 2;
+}
+
+.gueras{
+    border-radius: 100px; width:35%; margin: 0 3em .5em 0; float:left; shape-outside: circle()
+}
+
+.textfive{
+    grid-column: 1;
+    grid-row: 1;
+}
+

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #11122b;  
+}
+
+h1,h2,h3,h4 {
+     font-family: 'Libre Baskerville', serif;
+}
+
+header {
+    background-color: #11122b;
+    color: #DCE4DF;
+    padding: 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: #11122b;
+    text-align: center;
+    color: #DCE4DF  ;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #E5DDDC;
+    border-radius: 5px;
+    padding: 2em; 
+}
+
+main {
+    text-align: center;
+}
+
+.persona {
+    background-color: #E5DDDC;
+    border-radius: 5px;
+    margin: 3em 5em;
+    padding: 1em;
+}
+
+.image {
+    width: 40%;
+    height: auto;
+}
+
+.image-color {
+    width: 100%;
+    height: auto;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    background-color: #E5DDDC;
+    padding-inline-start: 0px;
+}
+
+nav ul li a {
+    
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #11122b;
+    color: #cea135;
+    --d: 75%;
+}
+
+footer a{
+    background-color: #11122b;
+    color: #E5DDDC;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+	text-decoration: none;
+    transition: 0.5s;
+    background-color: #11122b;
+    font-family: 'Open Sans', sans-serif;
+    color: #cea135;
+    --d: 75%;
+}
+
+
+/*color.html*/
+
+.typecolor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blue{
+    background-color: #11122b;
+}
+
+.white{
+    background-color: #DCE4DF;
+}
+
+.yellow{
+    background-color: #cea135;
+}
+
+/*typography*/
+
+.nametipography h3{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nametipography h4{
+    font-family: 'Open Sans', sans-serif;
+
+}

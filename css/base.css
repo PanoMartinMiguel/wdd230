@@ -10,7 +10,7 @@ header, main, footer {
 }
 
 header {
-    margin: 1rem;
+    margin: 0 auto;
     
     border: 1px solid #bbb;
     border-radius: 5px;
@@ -36,7 +36,7 @@ img{
 }
 
 main {
-    margin: 1rem;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     padding: 1rem;
     display: grid;
@@ -63,7 +63,7 @@ h3{
 }
 
 footer{
-    margin: 1rem;
+    margin: 0 auto;
     
     border-radius: 5px;
     border: 1px solid #bbb;

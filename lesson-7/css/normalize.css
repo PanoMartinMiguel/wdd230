@@ -8,9 +8,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
@@ -78,14 +75,6 @@
   
   a {
     background-color: transparent;
-    text-decoration: none;
-    color: #cea135;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-  a:hover{
-    color: #11122b;
-    transition: 0.5s;
   }
   
   /**

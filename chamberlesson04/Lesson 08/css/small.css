@@ -124,9 +124,12 @@ form label.top input:required {
 }
 
 footer {
-    background-color: #ddd;
     padding: .5rem 2%;
     text-align: center;
+    background-color: #11122b;
+    color: #E5DDDC;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
 }
 
 
@@ -135,4 +138,21 @@ footer {
   content: "";
   display: table;
   clear: both;
+}
+
+footer a{
+    background-color: #11122b;
+    color: #E5DDDC;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+	text-decoration: none;
+    transition: 0.5s;
+    background-color: #11122b;
+    font-family: 'Open Sans', sans-serif;
+    color: #cea135;
+    --d: 75%;
 }

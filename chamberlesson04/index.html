@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Plan Mazatlan Chamber Commerce for  Miguel Pano in WDD 230: Web Frontend 
+    Development at Brigham Young University - Idaho">
+    <title>Mazatlan Chamber Commerce | Site Plan Home</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="js/javascrip.js" defer=""></script>
+    <script src="js/windchill.js" defer=""></script>
+</head>
+<body>
+    <div id="content">
+    <header class="clearfix">
+        <figure class="logo">
+            <img src="images/pxmarca.png" alt="logo">
+        </figure>
+        <section class="title">
+            <H1>Mazatlan</H1>
+            <h2>Chamber Commerce</h2>
+        </section>  
+    </header>
+    <nav>       
+        <ul class="navigation">
+        <li> <button onclick="toggleMenu()"> Menu</button></li>
+        <li><a href="discover.html" >Discover</a></li>
+        <li><a href="">Directory</a></li>
+        <li><a href="lesson 08/join.html">Join</a></li>
+        <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="date"><h2><span id="headerdate">date</span></h2></section>
+    
+    <main>
+        <div id="calltoaction" class="box">
+            <picture class="heroimage">
+                <source srcset= "images/heromedium.jpg" media="(min-width:500px) and (max-width: 799px)">
+                    <source srcset="images/herolarge.jpg" media="(min-width:800px)">
+                <img class="callimg" src="images/herosmall.jpg" alt="Photograph of Hartville at night">
+            </picture>
+            <h3 class="welcome">Welcome to Mazatlan</h3>
+            <a href=""><h3 class="join">Join the Chamber</h3></a>
+        </div>
+        <div id="event" class="box">
+            <div class="headingbox">
+                <h3>GRAND OPENING</h3>
+            </div>
+            <h4>New York by The Slice</h4>
+            <p>Buy one get one free any large pizza, Friday at 2:00p.m.</p>
+            <a href="">more info ...</a> 
+        </div>
+        <div id="weather" class="box">
+            <div class="headingbox">
+                <h3>WEATHER</h3>
+            </div>
+            <img class="weatherimg" src="images/weather.png" alt="image of sun and clouds">
+            <div class="weatherinfo">
+                <p >Temperature: <span id="t">78</span>&#176;F</p>
+                <p >Wind Speed: <span id="s">8</span>mph</p>
+                <p >WindChill: <span id="w"></span></p>
+            </div>
+        </div>
+        <div id="join" class="notsmall" >
+            <a href="lesson 08/join.html"><h3 class="join2">Join Us!</h3></a>
+            <p class="jointext">Learn more about the Mazatlan chamber of commerce and how it could benefit you and your organization!</p>
+        </div>
+        <div id="newreleases" class="box">
+            <div class="headingbox">
+                <h3>New Releases</h3>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit 
+                esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, 
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <section class="spotlights">
+            <div id="spotlight1" class="box">
+                <h3>AMC Theatre</h3>
+                <img class="spotlightimg" src="images/movie.jpg" alt="icon of movie film">
+                <div class="spotlightinfo">
+                    <h4>"America's Hometown Theatres"</h4>
+                    <div class="contactinfo">
+                        <p>contactinfo@gmail.com</p>
+                        <p>+999-999-9999 | Website</p>
+                    </div>
+                </div>
+            </div>
+            <div id="spotlight2" class="box">
+                <h3>Swimming Lessons</h3>
+                <img class="spotlightimg" src="images/swimming.png" alt="icon of person swimming">
+                <div class="spotlightinfo">
+                    <h4>Free swimming lessons for children 12 and under!</h4>
+                    <div class="contactinfo">
+                        <p>contactinfo@gmail.com</p>
+                        <p>+999-999-9999 | Website</p>
+                    </div>
+                </div>
+            </div>
+            <div id="spotlight3" class="onlylarge">
+                <h3>Lumber and Barns</h3>
+                <img class="spotlightimg" src="images/shed.png" alt="icon of shed">
+                <div class="spotlightinfo">
+                    <h4>Need a barn or shed?</h4>
+                    <div class="contactinfo">
+                        <p>contactinfo@gmail.com</p>
+                        <p>6666666666 | Website</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <figure class="logo">
+                <img src="images/pxmarca.png" alt="logo">
+            </figure>
+            <div id="info">
+                <H4>Mazatlàn Chamber Commerce</H4>
+                <p>141 Rafael Buelna Flamingos. Sin. Mazatlan, 82149</p>
+                <p>Mazatlan@info.com</p>
+                <p>(699) 3963-8741 </p>
+            </div>
+        </div>
+        <p>&copy;<span id="year">year</span> .:|:. Miguel Pano Martin .:|:. Mazatlán, Sin.</p>
+        <p>Last Updated: <span id="date">date</span></p><a href="file:///C:/Users/panol/Desktop/GitHubArchives/wdd230/indice.html" id="home-link">Home</a>
+    </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  
+  body {
+      display: grid;
+      margin: 0 auto;
+      justify-items: center;
+  }
+
+  footer {
+    background-color: #11122b;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+footer a{
+    color: #bbb;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: none;
+    transition: 0.5s;
+    background-color: #11122b;
+    font-family: 'Open Sans', sans-serif;
+    color: #cea135;
+    --d: 75%;
+}
