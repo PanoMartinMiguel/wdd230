@@ -7,6 +7,7 @@
     <meta name="description" content="Site Plan Mazatlan Chamber Commerce for  Miguel Pano in WDD 230: Web Frontend 
     Development at Brigham Young University - Idaho">
     <title>Mazatlan Chamber Commerce | Site Plan Home</title>
+    <script src="https://kit.fontawesome.com/9950888255.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -14,6 +15,8 @@
     <link rel="shortcut icon" href="favicon.ico">
     <script src="js/javascrip.js" defer=""></script>
     <script src="js/windchill.js" defer=""></script>
+    <script src="js/weatherapi.js" defer=""></script>       
+
 </head>
 <body>
     <div id="content">
@@ -24,18 +27,31 @@
         <section class="title">
             <H1>Mazatlan</H1>
             <h2>Chamber Commerce</h2>
-        </section>  
+        </section> 
+        <div class="right-column">
+            <div class="address-wrapper">
+               <a href="contact.html">
+                141 Rafael Buelna Flamingos. <br>
+                Sin. Mazatlan, 82149 
+            </a>
+            </div>
+
+            <div class="contact-icon">
+                <a href="">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+            </div>
+        </div>
     </header>
     <nav>       
         <ul class="navigation">
-        <li> <button onclick="toggleMenu()"> Menu</button></li>
-        <li><a href="discover.html" >Discover</a></li>
-        <li><a href="">Directory</a></li>
-        <li><a href="lesson 08/join.html">Join</a></li>
-        <li><a href="">Contact</a></li>
+            <li> <button onclick="toggleMenu()"> Menu</button></li>
+            <li><a href="discover.html" >Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="">Contact</a></li>
         </ul>
     </nav>
-    <section class="date"><h2><span id="headerdate">date</span></h2></section>
     
     <main>
         <div id="calltoaction" class="box">
@@ -56,18 +72,28 @@
             <a href="">more info ...</a> 
         </div>
         <div id="weather" class="box">
-            <div class="headingbox">
-                <h3>WEATHER</h3>
-            </div>
-            <img class="weatherimg" src="images/weather.png" alt="image of sun and clouds">
-            <div class="weatherinfo">
-                <p >Temperature: <span id="t">78</span>&#176;F</p>
-                <p >Wind Speed: <span id="s">8</span>mph</p>
-                <p >WindChill: <span id="w"></span></p>
-            </div>
+
+
+            <section class="greenbackground coloredborder" id="weather">
+                <h3>Weather Summary</h3>
+                <div id="weatherboxes">
+                   <figure id="temperatureicon">
+                    <img src="" alt="" id="weather-icon"  width="300" height="50"/>
+                   </figure>            
+                   <p class="temperaturetext"><span id="current-temp"></span>° F</p>
+                   <figure class="weathertext twocol">
+                       <figcaption></figcaption>
+                   </figure>
+                    <p class="tworemfont">Wind Speed: </p>
+                    <p class="windspeed tworemfont"><span id="speed"></span> mph</p>
+                    <p class="tworemfont">Wind Chill: </p>
+                    <p class="windchill tworemfont">N/A</p>
+                </div>
+            </section>
+
         </div>
         <div id="join" class="notsmall" >
-            <a href="lesson 08/join.html"><h3 class="join2">Join Us!</h3></a>
+            <a href="join.html"><h3 class="join2">Join Us!</h3></a>
             <p class="jointext">Learn more about the Mazatlan chamber of commerce and how it could benefit you and your organization!</p>
         </div>
         <div id="newreleases" class="box">
@@ -122,7 +148,7 @@
         </section>
     </main>
     <footer>
-        <div>
+        <div class="fooinfo">
             <figure class="logo">
                 <img src="images/pxmarca.png" alt="logo">
             </figure>

@@ -34,8 +34,10 @@ header figure.logo img {
 }
 
 header {
+    display: flex;
     background-color: #11122b;
     color: white;
+    justify-content: space-around;
 }
 
 header figure.logo {
@@ -58,6 +60,39 @@ header figure.logo {
 }
 .navigation li {
     display: none;
+}
+
+.right-column{
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon{
+    font-size: 2em;
+}
+
+.contact-icon a{
+    color: #E5DDDC;
+}
+
+.contact-icon a:hover{
+    color: #cea135;
+    transition: .5s;
+}
+
+.address-wrapper {
+    text-align: center;
+}
+
+.address-wrapper a{
+    text-decoration: none;
+    color: #E5DDDC;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.address-wrapper a:hover{
+    color: #cea135;
+    transition: .5s;
 }
 
 .responsive li {
@@ -290,6 +325,10 @@ footer {
 footer a{
     color: #bbb;
 	text-decoration: none;
+}
+
+.fooinfo{
+    display: flex;
 }
 
 footer a:hover {

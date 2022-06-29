@@ -55,6 +55,8 @@ header figure.logo {
     text-align: center;
 }
 
+
+
 .navigation {
     list-style: none;
     text-align: center;
@@ -73,29 +75,7 @@ header figure.logo {
 }
 
 
-nav a:hover {
-    background-color: #bbb;
-    color: #36454f;
-    --d: 75%;
-}
-nav ul {
-    background-color: #E5DDDC; 
-}
 
-nav ul li a {
-    
-	display: block;
-	color: black;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-	transition: 0.5s;
-}
-nav a:hover {
-    background-color: #11122b;
-    color: #cea135;
-    --d: 75%;
-}
 
 main {
 	margin: 0 auto;
@@ -229,3 +209,23 @@ footer a{
 	text-decoration: none;
 }
 
+.directorios{
+	display: flex;
+    justify-content: space-around;
+	background-color: #11122b;
+	color: white;
+	text-decoration: none;
+}
+
+.directorios a:hover{
+	color: #cea135;
+	transition: .5s;
+}
+
+.directorio {
+	display: block;
+}
+
+li{
+	display: block;
+}

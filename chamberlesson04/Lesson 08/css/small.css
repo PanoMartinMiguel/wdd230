@@ -6,12 +6,18 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
+    display: grid;
+    justify-content: center;
+    background-color: #11122b;
 }
 
 
 header {
-    padding: .5rem 2%;
+    padding: 0.5rem 2%;
     background-color: #11122b;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 header h1 {
     margin: 0;
@@ -30,6 +36,8 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     
 }
 nav ul li {
@@ -38,8 +46,8 @@ nav ul li {
 }
 nav ul li a {
     display: block;
-    background-color: #444;
-    color: #eee;
+    background-color: #E5DDDC;
+    color: black;
     border-left: 1px solid #777;
     padding: .5rem 0;
     text-decoration: none;
@@ -65,9 +73,12 @@ nav ul li.active a {
     background-color: #11122b;
     color: #cea135;
 }
+
 main {
     padding: 0 2%;
     min-height: 20rem;
+    background-color: white;
+    border: 5px solid #cea135;
 }
 
 
@@ -106,13 +117,19 @@ form label.sbs{
 
 form input.submitBtn {
     border: none;
-    background-color: #11122b;
-    color: #cea135;
+    background-color: #cea135;
+    color: #11122b;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+}
+
+form input.submitBtn:hover{
+    background-color: #11122b;
+    color: #cea135;
+    transition: .5s;
 }
 
 form label.top input:required {

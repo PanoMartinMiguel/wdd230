@@ -113,6 +113,13 @@
         top: 5%;
         right: 10%;
     }
+
+    .join2:hover {
+        color: #cea135;
+        transition: 0.5s;
+    }
+
+
     .title {
         font-size: 1.1em;
     }
