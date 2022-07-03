@@ -29,6 +29,41 @@ header h2 {
     color: #DCE4DF;
 }
 
+.right-column{
+    display: flex;
+    align-items: center;
+    font-size: 0.7em;
+}
+
+.contact-icon{
+    font-size: 2em;
+    padding: 0px 0px 0px 5px;
+}
+
+.contact-icon a{
+    color: #E5DDDC;
+}
+
+.contact-icon a:hover{
+    color: #cea135;
+    transition: .5s;
+}
+
+.address-wrapper {
+    text-align: center;
+}
+
+.address-wrapper a{
+    text-decoration: none;
+    color: #E5DDDC;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.address-wrapper a:hover{
+    color: #cea135;
+    transition: .5s;
+}
+
 nav {
     background-color: #11122b;
 }
@@ -132,9 +167,7 @@ form input.submitBtn:hover{
     transition: .5s;
 }
 
-form label.top input:required {
-    border-left: red solid 6px;
-}
+
 
 form label.top input:required {
     border-left: #11122b solid 6px;
@@ -172,4 +205,26 @@ footer a:hover {
     font-family: 'Open Sans', sans-serif;
     color: #cea135;
     --d: 75%;
+}
+
+.fooinfo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-icons-wrapper{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+    grid-row: 2;
+}
+
+.social-media-icons-wrapper a:hover {
+    color: #cea135;
 }

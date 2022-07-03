@@ -136,13 +136,7 @@ h1,h2,h3,h4 {
     font-family: 'Open Sans', sans-serif;
 }
 
-main {
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
-    margin: 0px -30px;
-}
+
 
 .box {
     background-color: #E5DDDC;
@@ -488,3 +482,22 @@ img{
     grid-row: 1;
 }
 
+form{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr;
+}
+
+fieldset{
+    grid-column: 1;
+}
+
+.greenbackground_contactjoin{
+    grid-column: 2;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

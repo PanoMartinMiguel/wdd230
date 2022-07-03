@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Plan Mazatlan Chamber Commerce for  Miguel Pano in WDD 230: Web Frontend 
+    Development at Brigham Young University - Idaho">
+    <title>Mazatlan Chamber Commerce | conatct Page</title>
+    <script src="https://kit.fontawesome.com/9950888255.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="lesson 11/css/base.css">
+    <link rel="stylesheet" href="lesson 11/css/large.css">
+    <link rel="stylesheet" href="lesson 11/css/medium.css">
+    <link rel="stylesheet" href="lesson 11/css/normalize.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="js/javascrip.js" defer=""></script>
+    <script src="js/windchill.js" defer=""></script>
+</head>
+<body>
+    <div id="content">
+    <header class="clearfix">
+        <figure class="logo">
+            <img src="images/pxmarca.png" alt="logo">
+        </figure>
+        <section class="title">
+            <H1>Mazatlan</H1>
+            <h2>Chamber Commerce</h2>
+        </section>  
+
+        <div class="right-column">
+            <div class="address-wrapper">
+               <a href="contact.html">
+                141 Rafael Buelna Flamingos. <br>
+                Sin. Mazatlan, 82149 
+            </a>
+            </div>
+
+            <div class="contact-icon">
+                <a href="">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav>       
+        <ul class="navigation">
+        <li> <button onclick="toggleMenu()"> Menu</button></li>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="index.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+
+        <form method="get" action="lesson 08/thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="Your phone"></label>
+                <label class="top">Email <input type="email" name="email" placeholder="youremail@gmail.com" required></label>
+                <div class="form-group">
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <label for="message">Message</label>
+                </div>
+            </fieldset>
+
+            <input type="submit" value="Finish" class="submitBtn">
+            
+        </form>
+
+        <div class="greenbackground_contactjoin">
+          <h2 class="roundedborders blackbackground">
+            Mazatlan Chamber Commerce - Contact Page
+                  </h2>
+          <p>
+            Thank you for deciding to contact us, here is a space so you can ask us any question you want.
+          </p>
+
+          <h3>
+            E-mail
+          </h3>
+          <p>
+            MazatlanCC@gmail.com
+          </p>
+          <h3>
+            Phone Number
+          </h3>
+          <p>
+           +52 669 552 9528
+          </p>
+          <h3>
+            Address
+          </h3>
+          <p>
+            141 Rafael Buelna Flamingos. <br>
+                Sin. Mazatlan, 82149
+          </p>
+
+        </div>
+  
+
+      </main>
+    <footer>
+        <div class="fooinfo">
+            <figure class="logo">
+                <img src="images/pxmarca.png" alt="logo">
+            </figure>
+            <div class="social-media-icons-wrapper">
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+        <p>&copy;<span id="year">year</span> .:|:. Miguel Pano Martin .:|:. Mazatlán, Sin.</p>
+        <p>Last Updated: <span id="date">date</span></p><a href="file:///C:/Users/panol/Desktop/GitHubArchives/wdd230/indice.html" id="home-link">Home</a>
+    </footer>
+    </div>
+</body>
+</html>

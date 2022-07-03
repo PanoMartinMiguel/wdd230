@@ -7,6 +7,8 @@
     <meta name="description" content="Site Plan Mazatlan Chamber Commerce for  Miguel Pano in WDD 230: Web Frontend 
     Development at Brigham Young University - Idaho">
     <title>Mazatlan Chamber Commerce | Site Plan Home</title>
+    <script src="https://kit.fontawesome.com/9950888255.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -25,13 +27,28 @@
             <H1>Mazatlan</H1>
             <h2>Chamber Commerce</h2>
         </section>  
+
+        <div class="right-column">
+            <div class="address-wrapper">
+               <a href="contact.html">
+                141 Rafael Buelna Flamingos. <br>
+                Sin. Mazatlan, 82149 
+            </a>
+            </div>
+
+            <div class="contact-icon">
+                <a href="">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+            </div>
+        </div>
     </header>
     <nav>       
         <ul class="navigation">
         <li> <button onclick="toggleMenu()"> Menu</button></li>
         <li><a href="index.html" >Home</a></li>
         <li><a href="directory.html">Directory</a></li>
-        <li><a href="">Join</a></li>
+        <li><a href="join.html">Join</a></li>
         <li><a href="index.html">Contact</a></li>
         </ul>
     </nav>
@@ -108,15 +125,22 @@
 
     </main>
     <footer>
-        <div>
+        <div class="fooinfo">
             <figure class="logo">
                 <img src="images/pxmarca.png" alt="logo">
             </figure>
-            <div id="info">
-                <H4>Mazatlàn Chamber Commerce</H4>
-                <p>141 Rafael Buelna Flamingos. Sin. Mazatlan, 82149</p>
-                <p>Mazatlan@info.com</p>
-                <p>(699) 3963-8741 </p>
+            <div class="social-media-icons-wrapper">
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
             </div>
         </div>
         <p>&copy;<span id="year">year</span> .:|:. Miguel Pano Martin .:|:. Mazatlán, Sin.</p>

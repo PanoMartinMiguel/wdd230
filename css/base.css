@@ -15,7 +15,7 @@ header {
     border: 1px solid #bbb;
     border-radius: 5px;
     padding: 1rem;
-    background-color: rgb(19, 35, 86);
+    background-color: #11122b;
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
@@ -50,27 +50,22 @@ h2{
     display: grid;
 }
 
-p {
-    border-top: 1px solid;
-    color: #a79f9f;
-    display: grid;
-
-}
-
 h3{
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
 
-footer{
-    margin: 0 auto;
-    
+.pp{
+    color: black;
+}
+
+footer {
+    background-color: #11122b;
+    text-align: center;
+    color: white;
     border-radius: 5px;
-    border: 1px solid #bbb;
-    padding: 1rem;
-    background-color: rgb(19, 35, 86);
-    display: grid;
-    justify-content: center;
-    box-shadow: 5px 5px 5px rgb(53, 52, 52);
+    padding: 1em;
+    margin-top: 2em;
+    box-shadow: 5px 5px 5px rgb(53 52 52);
 }
 

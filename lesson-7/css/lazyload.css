@@ -5,13 +5,20 @@ img[data-src] {
   img {
     filter: blur(0em);
     transition: filter 0.5s;
+    width: 10%;
   }
   
   body {
-      display: grid;
+    
       margin: 0 auto;
-      justify-items: center;
+
   }
+
+main{
+    display: grid;
+    padding: 0px 0px 0px 500px;
+
+}
 
   footer {
     background-color: #11122b;

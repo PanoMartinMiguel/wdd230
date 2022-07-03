@@ -209,6 +209,16 @@ footer a{
 	text-decoration: none;
 }
 
+footer a:hover {
+	text-decoration: none;
+    transition: 0.5s;
+    background-color: #11122b;
+    font-family: 'Open Sans', sans-serif;
+    color: #cea135;
+    --d: 75%;
+}
+
+
 .directorios{
 	display: flex;
     justify-content: space-around;
@@ -228,4 +238,26 @@ footer a{
 
 li{
 	display: block;
+}
+
+.social-media-icons-wrapper{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+    grid-row: 2;
+}
+
+.social-media-icons-wrapper a:hover {
+    color: #cea135;
+}
+
+.fooinfo{
+    display: flex;
+    justify-content: space-around;
 }
